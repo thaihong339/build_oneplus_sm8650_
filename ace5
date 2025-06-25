@@ -111,8 +111,8 @@ GIT_EMAIL=$(git config --global user.email || echo "")
 
 if [ -z "$GIT_NAME" ] || [ -z "$GIT_EMAIL" ]; then
     info "Git not configured, setting it now..."
-    git config --global user.name "Q1udaoyu"
-    git config --global user.email "sucisama2888@gmail.com"
+    git config --global user.name "thaihong339"
+    git config --global user.email "thaivuhong09@gmail.com"
 else
     info "Git is already configured:"
 fi
